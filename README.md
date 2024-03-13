@@ -41,6 +41,7 @@ npm run dev
 ```
 
 The Database Json server runs on **localhost:3000**
+
 The Application runs on **localhost:5173**
 
 ## Application Design
