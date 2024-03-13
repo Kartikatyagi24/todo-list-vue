@@ -4,7 +4,9 @@ import DoneList from './components/DoneList.vue';
 
 const routes = [
     { path: '/', component: TodoList },
-    { path: '/done', component: DoneList }
+    { path: '/todo', component: TodoList },
+    { path: '/done', component: DoneList },
+    { path: '/:pathMatch(.*)*', redirect: '/' }
 ];
 
 const router = createRouter({
