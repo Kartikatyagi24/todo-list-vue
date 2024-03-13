@@ -32,7 +32,7 @@ npm install
 
 Run the following command to run the local database json server
 ```
-npx json-server --watch database.json
+npx json-server --watch database.json --port 3000
 ```
 
 Run the following command to run the application
@@ -40,6 +40,7 @@ Run the following command to run the application
 npm run dev
 ```
 
+The Database Json server runs on **localhost:3000**
 The Application runs on **localhost:5173**
 
 ## Application Design
